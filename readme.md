@@ -14,3 +14,10 @@ e.g. {"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}
 
 If the date string is invalid the api returns a JSON having the structure 
 {"error" : "Invalid Date" }
+
+Add on:
+ GET [project_url]/whoami will give the ip address and system info:
+ 
+ {"ipaddress":"159.20.14.100","language":"en-US,en;q=0.5",
+"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}
+ 
